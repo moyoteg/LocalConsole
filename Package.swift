@@ -7,6 +7,9 @@ let package = Package(
     name: "LocalConsole",
     platforms: [
         .iOS(.v14),
+        .macOS(.v10_15),
+        .tvOS(.v14),
+        .watchOS(.v7),
     ],
     products: [
         .library(
